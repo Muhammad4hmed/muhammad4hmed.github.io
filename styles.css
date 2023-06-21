@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job {
+  margin-bottom: 30px;
+}
+
+.skill-list,
+.achievement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  padding: 20px;
+}
+
+.experience,
+.education,
+.skills,
+.achievements {
+  margin-bottom: 40px;
+}
+
+/* Add your own custom styles below */
+
