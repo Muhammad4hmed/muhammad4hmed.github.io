@@ -4,188 +4,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <style>
-    body {
-      background-color: #111;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .section {
-      padding: 20px;
-      margin: 20px;
-      border: 1px solid #555;
-      border-radius: 5px;
-      transition: all 0.3s ease;
-      cursor: pointer;
-    }
-
-    .section:hover {
-      background-color: #222;
-    }
-
-    .section.open {
-      height: auto;
-    }
-
-    .section-content {
-      display: none;
-    }
-
-    .section.open .section-content {
-      display: block;
-    }
-  </style>
+  <title>Muhammad Ahmed | Data Scientist</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <h1>My Portfolio</h1>
+  <header>
+    <h1>Muhammad Ahmed</h1>
+    <h2>Data Scientist</h2>
+    <ul class="contact-list">
+      <li><strong>Location:</strong> Karachi, Pakistan</li>
+      <li><strong>Phone:</strong> +923163801959</li>
+      <li><strong>Email:</strong> m.ahmed.memonn@gmail.com</li>
+      <li><strong>Kaggle:</strong> <a href="https://www.kaggle.com/Muhammad4hmed">Muhammad4hmed</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/Muhammad4hmed">Muhammad4hmed</a></li>
+      <li><strong>Github:</strong> <a href="https://www.github.com/Muhammad4hmed">Muhammad4hmed</a></li>
+    </ul>
+  </header>
 
-  <div class="section">
-    <h2>About Me</h2>
-    <div class="section-content">
-      <p>
-        Muhammad Ahmed<br>
-        Data Scientist<br>
-        Karachi, Pakistan<br>
-        +923163801959<br>
-        m.ahmed.memonn@gmail.com<br>
-        Kaggle/Muhammad4hmed, Linkedin/Muhammad4hmed, Github/Muhammad4hmed
-      </p>
-    </div>
-  </div>
+  <main>
+    <section class="experience">
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Research Engineer - Computer Vision and Machine Learning</h3>
+        <p><strong>Retrocausal, Redmond, WA, USA (Remote)</strong></p>
+        <p>JUL 2022 - PRESENT</p>
+        <ul>
+          <li>Conducted computer vision research and solved problems involving classification, object detection, and segmentation under Dr. Quoc-Huy Tran's supervision.</li>
+          <li>Contributed to research papers on self-supervised learning for video activity recognition, achieving a 2% performance improvement and outperforming state-of-the-art methods in 2 publications.</li>
+          <li>Explored video data generation in projects using latent diffusion models and conducted research on action recognition utilizing 2D human pose estimation, surpassing state-of-the-art methods by a 10% margin.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Data Scientist</h3>
+        <p><strong>Pikky, India (Remote)</strong></p>
+        <p>DEC 2021 - JUN 2022</p>
+        <ul>
+          <li>Made a patented food recommendation engine from scratch and deployed it to real-time users.</li>
+          <li>Developed a novel way of recommendation for food utilizing machine learning, natural language processing, and computer vision techniques with an accuracy of above 90%.</li>
+          <li>Worked with cross-functional teams: product managers, developers, and designers, to efficiently deliver and integrate data-driven solutions, adapting to shifting requirements and priorities in an Agile framework.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Software Engineer (Intern), Machine Learning Infrastructure</h3>
+        <p><strong>Retrocausal, Redmond, WA, USA (Remote)</strong></p>
+        <p>NOV 2020 - DEC 2021</p>
+        <ul>
+          <li>Worked on building computer vision and artificial intelligence solutions for video data, such as object detection and improving existing solutions for action recognition under the supervision of Dr. Zeeshan Zia.</li>
+          <li>Implemented a method of augmentation to boost the performance of the activity recognition method by 5%.</li>
+        </ul>
+      </div>
+    </section>
 
-  <div class="section">
-    <h2>Experience</h2>
-    <div class="section-content">
-      <h3>Retrocausal, Redmond, WA, USA (Remote) - Research Engineer - Computer Vision and Machine Learning</h3>
-      <p>JUL 2022 - PRESENT</p>
-      <ul>
-        <li>Conducted computer vision research and solved problems involving classification, object detection, and
-          segmentation under Dr. Quoc-Huy Tran's supervision.</li>
-        <li>Contributed to research papers on self-supervised learning for video activity recognition, achieving a 2%
-          performance improvement and outperforming state-of-the-art methods in 2 publications.</li>
-        <li>Explored video data generation in projects using latent diffusion models and conducted research on action
-          recognition utilizing 2D human pose estimation, surpassing state-of-the-art methods by a 10% margin.</li>
+    <section class="education">
+      <h2>Education</h2>
+      <div class="degree">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p><strong>FAST National University of Computer and Emerging Sciences, Karachi, Pakistan</strong></p>
+        <p>AUG 2018 - JUN 2022</p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>Data Science: Data Analysis, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing.</li>
+        <li>Frameworks: PyTorch, TensorFlow, Scikit-learn, Keras, OpenCV, Pandas, NumPy.</li>
+        <li>Containerization & Cloud: Docker, Amazon Web Services, On-click services such as LambdaLABS.</li>
+        <li>Programming Languages & Fundamentals: Python, C++, SQL, Data Structures and Algorithms.</li>
+        <li>Soft Skills: English Communication, Problem-solving, Teamwork, Critical Thinking, Adaptability, Business Acumen.</li>
       </ul>
+    </section>
 
-      <h3>Pikky, India (Remote) - Data Scientist</h3>
-      <p>DEC 2021 - JUN 2022</p>
-      <ul>
-        <li>Made a patented food recommendation engine from scratch and deployed it to real-time users.</li>
-        <li>Developed a novel way of recommendation for food utilizing machine learning, natural language processing,
-          and computer vision techniques with an accuracy of above 90%.</li>
-        <li>Worked with cross-functional teams: product managers, developers, and designers, to efficiently deliver and
-          integrate data-driven solutions, adapting to shifting requirements and priorities in an Agile framework.</li>
-      </ul>
-
-      <h3>Retrocausal, Redmond, WA, USA (Remote) - Software Engineer (Intern), Machine Learning Infrastructure</h3>
-      <p>NOV 2020 - DEC 2021</p>
-      <ul>
-        <li>Worked on building computer vision and artificial intelligence solutions for video data, such as object
-          detection and improving existing solutions for action recognition under the supervision of Dr. Zeeshan Zia.</li>
-        <li>Implemented a method of augmentation to boost the performance of the activity recognition method by 5%.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Education</h2>
-    <div class="section-content">
-      <p>FAST National University of Computer and Emerging Sciences, Karachi, Pakistan - Bachelor of Science in Computer
-        Science<br>AUG 2018 - JUN 2022</p>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Skills</h2>
-    <div class="section-content">
-      <p>Data Science: Data Analysis, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing.</p>
-      <p>Frameworks: PyTorch, TensorFlow, Scikit-learn, Keras, OpenCV, Pandas, NumPy.</p>
-      <p>Containerization & Cloud: Docker, Amazon Web Services, On-click services such as LambdaLABS.</p>
-      <p>Programming Languages & Fundamentals: Python, C++, SQL, Data Structures and Algorithms.</p>
-      <p>Soft Skills: English Communication, Problem-solving, Teamwork, Critical Thinking, Adaptability, Business
-        Acumen.</p>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Achievements</h2>
-    <div class="section-content">
+    <section class="achievements">
+      <h2>Achievements</h2>
       <h3>Publications</h3>
-      <ul>
+      <ol class="achievement-list">
         <li>Learning by Aligning 2D Skeletons in Time - Submitted at WACV 2024.</li>
         <li>Unsupervised Frame-to-Segment Alignment for Temporal Activity Segmentation - Submitted at WACV 2024.</li>
-        <li>Sequential Embedding-based Attentive (SEA) classifier for malware classification - Published at IEEE ICCWS
-          2022.</li>
-      </ul>
-
+        <li>Sequential Embedding-based Attentive (SEA) classifier for malware classification - Published at IEEE ICCWS 2022.</li>
+      </ol>
       <h3>Kaggle Competitions: Gold Medals</h3>
-      <ul>
+      <ol class="achievement-list">
         <li>SOLO WIN: Novozymes Enzyme Stability Prediction (Proteins Engineering) - Rank 2 out of 2482 teams.</li>
         <li>U.S. Patent Phrase to Phrase Matching (Phrases Similarity Prediction using Transformers) - Rank 10/1889.</li>
-      </ul>
-
+      </ol>
       <h3>Kaggle Competitions: Silver Medals</h3>
-      <ul>
+      <ol class="achievement-list">
         <li>Cassava Leaf Disease Classification (Image Classification using Computer Vision algorithms).</li>
         <li>Hungry Geese (Game bot using Reinforcement Learning).</li>
         <li>CommonLit Readability Prize (Passage complexity prediction using NLP Transformers).</li>
-        <li>G2Net Gravitational Wave Detection (Signals prediction from black hole collision using signal processing).</li>
+        <li>G2Net Gravitational Wave Detection (Signals prediction from blackhole collision using signal processing).</li>
         <li>Feedback Prize - Evaluating Student Writing (Predicted argumentative writing using NLP transformers).</li>
-      </ul>
-
+      </ol>
       <h3>Kaggle Competitions: Bronze Medals</h3>
-      <ul>
+      <ol class="achievement-list">
         <li>Riiid! Answer Correctness Prediction (Tracked knowledge state of students using time series algorithms).</li>
         <li>Mechanisms of Action (MoA) Prediction (Data Science & ML, Improved existing algorithm’s accuracy).</li>
         <li>OpenVaccine: COVID-19 mRNA Vaccine Degradation (Predicted the degradation in RNA using NLP).</li>
         <li>Google Landmark Recognition 2020 (Recognize landmarks in images using Computer Vision algorithms).</li>
         <li>Jigsaw Multi-languages Toxic Comment Classification Contest (Used bilingual NLP transformers).</li>
-        <li>Shopee - Price Match Guarantee (Matched products based on product descriptions, images, and other metadata
-          with the help of an unsupervised approach to making a model with different modalities).</li>
-        <li>SIIM-FISABIO-RSNA COVID-19 Detection (Detected COVID-19 cases from chest X-ray and CT images using Computer
-          Vision algorithms).</li>
-        <li>PetFinder.my - Pawpularity Contest (Predicted the number of "likes" that a photo would receive based on
-          various features like metadata, image properties, and pet breed information using CV and NLP algorithms).</li>
-      </ul>
-
+        <li>Shopee - Price Match Guarantee (Matched products based on product descriptions, images, and other metadata with the help of an unsupervised approach of making a model with different modalities).</li>
+        <li>SIIM-FISABIO-RSNA COVID-19 Detection (Detected COVID-19 cases from chest X-ray and CT images using Computer Vision algorithms).</li>
+        <li>PetFinder.my - Pawpularity Contest (Predicted the number of "likes" that a photo would receive based on various features like metadata, image properties, and pet breed information using CV and NLP algorithms).</li>
+      </ol>
       <h3>Other Data Science and Machine Learning Competitions</h3>
-      <ul>
-        <li>Globally 2nd Rank in Qualifiers of International Data Analytics Olympiad (IDAO) 2022 - Secured 2nd rank
-          among teams from institutes like Stanford, IIT, HSE University, University of Tokyo, etc., and qualified for
-          World Finals to represent my country and university at Moscow, Russia.</li>
-        <li>2nd Rank in Geoffrey Hinton Hackathon (Data Science & ML) - After competing with professionals and students
-          from top Indian universities like IIT and NIT.</li>
+      <ol class="achievement-list">
+        <li>Globally 2nd Rank in Qualifiers of International Data Analytics Olympiad (IDAO) 2022 - Secured 2nd rank among teams from institutes like Stanford, IIT, HSE University, University of Tokyo, etc., and qualified for World Finals to represent my country and university at Moscow, Russia.</li>
+        <li>2nd Rank in Geoffrey Hinton Hackathon (Data Science & ML) - After competing with professionals and students from top Indian universities like IIT and NIT.</li>
         <li>Top 10 finishes in 8 data science competitions from Dphi, HackerEarth, DataHack, and MachineHack.</li>
         <li>Have won local speed programming competitions and secured 8th rank in ICPC regionals.</li>
-      </ul>
-
+      </ol>
       <h3>Records</h3>
-      <ul>
+      <ol class="achievement-list">
         <li>Won a Kaggle Competition solo - 2023.</li>
         <li>Became Pakistan's first and only Kaggle Competitions Master - 2022.</li>
         <li>Became Kaggle Competitions Expert - 3rd and youngest in Pakistan to achieve this rank - 2020.</li>
-      </ul>
-    </div>
-  </div>
+      </ol>
+    </section>
+  </main>
 
-  <script>
-    const sections = document.querySelectorAll('.section');
-
-    sections.forEach(section => {
-      section.addEventListener('mouseenter', () => {
-        section.classList.add('open');
-      });
-
-      section.addEventListener('mouseleave', () => {
-        section.classList.remove('open');
-      });
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
