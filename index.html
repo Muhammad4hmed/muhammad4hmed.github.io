@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Muhammad Ahmed - Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,6 +17,7 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -25,21 +25,23 @@
   <section id="about">
     <div class="content">
       <h1>Muhammad Ahmed</h1>
-      <h2>Data Scientist</h2>
+      <p>Data Scientist</p>
       <p>Karachi, Pakistan</p>
       <p>+923163801959</p>
       <p>m.ahmed.memonn@gmail.com</p>
-      <p><a href="https://www.kaggle.com/Muhammad4hmed">Kaggle/Muhammad4hmed</a></p>
-      <p><a href="https://www.linkedin.com/in/Muhammad4hmed">Linkedin/Muhammad4hmed</a></p>
-      <p><a href="https://github.com/Muhammad4hmed">Github/Muhammad4hmed</a></p>
+      <div class="social-links">
+        <a href="https://www.kaggle.com/Muhammad4hmed" target="_blank">Kaggle/Muhammad4hmed</a>
+        <a href="https://www.linkedin.com/in/Muhammad4hmed" target="_blank">LinkedIn/Muhammad4hmed</a>
+        <a href="https://github.com/Muhammad4hmed" target="_blank">Github/Muhammad4hmed</a>
+      </div>
     </div>
   </section>
 
-  <section id="experience">
+  <section id="experience" class="dark-section">
     <div class="content">
-      <h1>Experience</h1>
+      <h2>Experience</h2>
       <div class="job">
-        <h2>Research Engineer - Computer Vision and Machine Learning</h2>
+        <h3>Research Engineer - Computer Vision and Machine Learning</h3>
         <p>Retrocausal, Redmond, WA, USA (Remote)</p>
         <p>JUL 2022 - PRESENT</p>
         <ul>
@@ -48,9 +50,8 @@
           <li>Explored video data generation in projects using latent diffusion models and conducted research on action recognition utilizing 2D human pose estimation, surpassing state-of-the-art methods by a 10% margin.</li>
         </ul>
       </div>
-
       <div class="job">
-        <h2>Data Scientist</h2>
+        <h3>Data Scientist</h3>
         <p>Pikky, India (Remote)</p>
         <p>DEC 2021 - JUN 2022</p>
         <ul>
@@ -59,9 +60,8 @@
           <li>Worked with cross-functional teams: product managers, developers, and designers, to efficiently deliver and integrate data-driven solutions, adapting to shifting requirements and priorities in an Agile framework.</li>
         </ul>
       </div>
-
       <div class="job">
-        <h2>Software Engineer (Intern), Machine Learning Infrastructure</h2>
+        <h3>Software Engineer (Intern), Machine Learning Infrastructure</h3>
         <p>Retrocausal, Redmond, WA, USA (Remote)</p>
         <p>NOV 2020 - DEC 2021</p>
         <ul>
@@ -74,28 +74,28 @@
 
   <section id="education">
     <div class="content">
-      <h1>Education</h1>
-      <div class="education">
-        <h2>Bachelor of Science in Computer Science</h2>
+      <h2>Education</h2>
+      <div class="job">
+        <h3>Bachelor of Science in Computer Science</h3>
         <p>FAST National University of Computer and Emerging Sciences, Karachi, Pakistan</p>
         <p>AUG 2018 - JUN 2022</p>
       </div>
     </div>
   </section>
 
-  <section id="skills">
+  <section id="skills" class="dark-section">
     <div class="content">
-      <h1>Skills</h1>
+      <h2>Skills</h2>
       <div class="skills-list">
-        <h2>Data Science</h2>
+        <h3>Data Science</h3>
         <p>Data Analysis, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing</p>
-        <h2>Frameworks</h2>
+        <h3>Frameworks</h3>
         <p>PyTorch, TensorFlow, Scikit-learn, Keras, OpenCV, Pandas, NumPy</p>
-        <h2>Containerization & Cloud</h2>
+        <h3>Containerization & Cloud</h3>
         <p>Docker, Amazon Web Services, On-click services such as LambdaLABS</p>
-        <h2>Programming Languages & Fundamentals</h2>
+        <h3>Programming Languages & Fundamentals</h3>
         <p>Python, C++, SQL, Data Structures and Algorithms</p>
-        <h2>Soft Skills</h2>
+        <h3>Soft Skills</h3>
         <p>English Communication, Problem-solving, Teamwork, Critical Thinking, Adaptability, Business Acumen</p>
       </div>
     </div>
@@ -103,32 +103,35 @@
 
   <section id="achievements">
     <div class="content">
-      <h1>Achievements</h1>
-      <div class="publications">
-        <h2>Publications</h2>
+      <h2>Achievements</h2>
+      <div class="job">
+        <h3>Publications</h3>
         <ol>
           <li>Learning by Aligning 2D Skeletons in Time - Submitted at WACV 2024</li>
           <li>Unsupervised Frame-to-Segment Alignment for Temporal Activity Segmentation - Submitted at WACV 2024</li>
           <li>Sequential Embedding-based Attentive (SEA) classifier for malware classification - Published at IEEE ICCWS 2022</li>
         </ol>
       </div>
-      <div class="kaggle">
-        <h2>Kaggle Competitions</h2>
-        <h3>Gold Medals</h3>
-        <ol>
+      <div class="job">
+        <h3>Kaggle Competitions: Gold Medals</h3>
+        <ul>
           <li>SOLO WIN: Novozymes Enzyme Stability Prediction (Proteins Engineering) - Rank 2 out of 2482 teams</li>
           <li>U.S. Patent Phrase to Phrase Matching (Phrases Similarity Prediction using Transformers) - Rank 10/1889</li>
-        </ol>
-        <h3>Silver Medals</h3>
-        <ol>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Kaggle Competitions: Silver Medals</h3>
+        <ul>
           <li>Cassava Leaf Disease Classification (Image Classification using Computer Vision algorithms)</li>
           <li>Hungry Geese (Game bot using Reinforcement Learning)</li>
           <li>CommonLit Readability Prize (Passage complexity prediction using NLP Transformers)</li>
           <li>G2Net Gravitational Wave Detection (Signals prediction from blackhole collision using signal processing)</li>
           <li>Feedback Prize - Evaluating Student Writing (Predicted argumentative writing using NLP transformers)</li>
-        </ol>
-        <h3>Bronze Medals</h3>
-        <ol>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Kaggle Competitions: Bronze Medals</h3>
+        <ul>
           <li>Riiid! Answer Correctness Prediction (Tracked knowledge state of students using time series algorithms)</li>
           <li>Mechanisms of Action (MoA) Prediction (Data Science & ML, Improved existing algorithm’s accuracy)</li>
           <li>OpenVaccine: COVID-19 mRNA Vaccine Degradation (Predicted the degradation in RNA using NLP)</li>
@@ -137,19 +140,19 @@
           <li>Shopee - Price Match Guarantee (Matched products based on product descriptions, images, and other metadata with the help of unsupervised approach of making a model with different modalities)</li>
           <li>SIIM-FISABIO-RSNA COVID-19 Detection (Detected COVID-19 cases from chest X-ray and CT images using Computer Vision algorithms)</li>
           <li>PetFinder.my - Pawpularity Contest (Predicted number of "likes" that a photo would receive based on various features like metadata, image properties, and pet breed information using CV and NLP algorithms)</li>
-        </ol>
+        </ul>
       </div>
-      <div class="other-achievements">
-        <h2>Other Data Science and Machine Learning Competitions</h2>
-        <ol>
-          <li>Globally 2nd Rank in Qualifiers of International Data Analytics Olympiad (IDAO) 2022 - Secured 2nd rank among teams from institutes like Stanford, IIT, HSE University, University of Tokyo etc and qualified for World Finals to represent my country and university at Moscow, Russia.</li>
+      <div class="job">
+        <h3>Other Data Science and Machine Learning Competitions</h3>
+        <ul>
+          <li>Globally 2nd Rank in Qualifiers of International Data Analytics Olympiad (IDAO) 2022 - Secured 2nd rank among teams from institutes like Stanford, IIT, HSE University, University of Tokyo, etc. and qualified for World Finals to represent my country and university at Moscow, Russia.</li>
           <li>2nd Rank in Geoffrey Hinton Hackathon (Data Science & ML) - After competing with professionals and students from top Indian universities like IIT and NIT.</li>
           <li>Top 10 finishes in 8 data science competitions from Dphi, HackerEarth, DataHack, and MachineHack.</li>
           <li>Have won local speed programming competitions and secured 8th rank in ICPC regionals.</li>
-        </ol>
+        </ul>
       </div>
-      <div class="records">
-        <h2>Records</h2>
+      <div class="job">
+        <h3>Records</h3>
         <ol>
           <li>Won a Kaggle Competition solo - 2023</li>
           <li>Became Pakistan's first and only Kaggle Competitions Master - 2022</li>
@@ -159,9 +162,16 @@
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2023 Muhammad Ahmed - Portfolio</p>
-  </footer>
+  <section id="contact" class="dark-section">
+    <div class="content">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+      <p>Email: m.ahmed.memonn@gmail.com</p>
+      <p>Phone: +923163801959</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
