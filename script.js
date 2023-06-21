@@ -1,20 +1,10 @@
-// script.js
+// Add smooth scrolling to anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
 
-window.addEventListener("DOMContentLoaded", () => {
-  const sections = document.querySelectorAll("section");
-
-  window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-
-    sections.forEach((section) => {
-      const sectionTop = section.offsetTop - 50;
-      const sectionBottom = sectionTop + section.offsetHeight;
-
-      if (currentScroll >= sectionTop && currentScroll < sectionBottom) {
-        section.classList.add("active");
-      } else {
-        section.classList.remove("active");
-      }
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
     });
   });
 });
