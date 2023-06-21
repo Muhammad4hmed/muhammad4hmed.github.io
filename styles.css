@@ -1,56 +1,95 @@
-/* styles.css */
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #1c1c1c;
+  background-color: #121212;
   color: #fff;
-  padding: 20px;
   margin: 0;
+  padding: 0;
 }
 
-h1,
-h2,
-h3 {
+header {
+  background-color: #222;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
   color: #fff;
+}
+
+section {
+  padding: 50px;
+  scroll-margin-top: 80px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
 }
 
 a {
   color: #fff;
-  text-decoration: none;
 }
 
-header {
-  margin-bottom: 20px;
-}
-
-.contact-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .job {
   margin-bottom: 30px;
 }
 
-.skill-list,
-.achievement-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.skills-list h2 {
+  margin-top: 20px;
 }
 
-.main {
+.skills-list p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #222;
   padding: 20px;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
 }
 
-.experience,
-.education,
-.skills,
-.achievements {
-  margin-bottom: 40px;
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .content {
+    padding: 20px;
+  }
 }
-
-/* Add your own custom styles below */
-
